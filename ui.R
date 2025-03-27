@@ -23,12 +23,12 @@ tm_tabPanels <- function(id, censo_name) {
 }
 
 fluidPage(
-  br(), br(),
+  titlePanel("Top 10 preguntas más observadas"),
   fluidRow(
     column(
       width = 4,
       h4(
-        p(strong("Top 10 preguntas más observadas")),
+        p(strong("Text mining")),
         style = "color: #3c8dbc"
       )
     ),
